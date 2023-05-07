@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html{
+  min-height: 100vh;
+  overflow-x:hidden;
+  scroll-behavior: smooth;
+}
+
+.bg-berk-gradient{
+  background:linear-gradient(180deg, #2D3135 0%, #3E4347 100%)
+}
+
+.desktop-program-links{
+  transform: translateY(10px);
+  opacity:0;
+  pointer-events: none;
+  transition:0.4s ease;
+}
+
+.desktop-program-links.visible{
+  transform: translateY(0px) !important;
+  opacity:1 !important;
+  pointer-events: all !important;
+}
+
+.berk-select > *{
+  font-family: 'Playfair Display', serif !important;
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected{
+  background-color: #e8413e7e !important;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range{
+  background-color: #E8423E !important;
+}
