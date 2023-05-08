@@ -29,7 +29,7 @@ const BeginJourney = ({ program }) => {
   };
 
   return (
-    <div className="mx-auto max-w-largest">
+    <div className="mx-auto py-10 max-w-largest">
       <h5
         className={clsx(
           texts.berk_h5_bold,
@@ -99,7 +99,7 @@ const BeginJourney = ({ program }) => {
             </button>
           </div>
 
-          <div className="mt-[23px] mb-[46px] xl:mb-4 mx-12">
+          <div className="mt-[23px] mb-[46px] xl:mb-4 ">
             <p className="text-berk-blue text-[13px] leading-6 text-center max-w-[654px] xl:mx-auto">
               *By submitting my number above, I agree to receive calls/SMS/text
               messages (data rates may apply) and/or prerecorded message from
