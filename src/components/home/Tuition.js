@@ -2,6 +2,8 @@ import React from "react";
 import clsx from "classnames";
 import texts from "assets/styles/texts";
 import TuitionInfo from "./TuitionInfo";
+import { Link } from "react-router-dom";
+import { routes } from "utils/constants";
 
 const tuitionList = [
   {
@@ -92,6 +94,15 @@ const Tuition = () => {
             the right to suspend any student from school whose account is
             delinquent.
           </p>
+          <Link
+            to={routes.contact_us}
+            className={clsx(
+              texts.berk_h5_regular,
+              "bg-berk-brown animate__animated animate__fadeIn py-[14px] w-[200px] text-center px-4 text-berk-white rounded-[20px] xl:px-[41px] xl:py-[22px]"
+            )}
+          >
+            Get Started
+          </Link>
         </div>
       </div>
     </div>

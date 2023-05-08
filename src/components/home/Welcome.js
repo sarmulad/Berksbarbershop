@@ -18,21 +18,19 @@ const Welcome = () => {
           <div>
             <div className="mt-[49px] xl:mt-0">
               <h4 className={clsx(texts.berk_h4_bold, "text-berk-brown")}>
-                WELCOME
+                Welcome to Berks Barber School
               </h4>
               <p className="mt-[10px] text-berk-black">
-                Dear Berks Barber School Student,
-                <br />
-                On behalf of the staff and administration at Berks Barber
-                School, we welcome you. We would like you to know that whatever
-                your goal, you will find Berks Barber School to be a great
-                choice in this industry. Berks Barber School maintains a
-                commitment to excellence in its program. So in choosing Berks
-                Barber School, you have, indeed, chosen one of the best. We will
-                continue to provide you with educational opportunities and
-                services that merit such prestige. We challenge you to take
-                advantage of all the valuable programs available to you and wish
-                you success as you work toward your degree.
+                where we are committed to providing the best education and
+                training in the barbing industry. Our mission is to help you
+                develop the knowledge, skills, and confidence necessary to
+                succeed in this exciting and rewarding field. Whether you're a
+                beginner or a seasoned professional, our programs offer quality
+                instruction in a safe and supportive environment. Our goal is to
+                assist you in achieving your aspirations and securing employment
+                that allows you to make a positive impact on society. Join us at
+                Berks Barber School and start your journey towards a successful
+                career in the barbing industry.
                 <br />
                 <br />
                 Sincerely,
