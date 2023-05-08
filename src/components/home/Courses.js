@@ -61,7 +61,7 @@ const Courses = () => {
             </p>
           </div>
           <div className="py-[87px] xl:pt-[78px] xl:pb-[244px] flex items-center justify-center">
-            <div className="bg-berk-ash rounded-[20px] w-[230px] xl:w-[992px] xl:justify-between xl:h-[250px] xl:space-y-0 xl:flex-row pt-[79px] pb-[81px] xl:py-[30px] xl:px-[55px] flex flex-col space-y-[67px]">
+            <div className="bg-berk-ash rounded-[20px] sm:w-[100%]  w-[230px] xl:w-[992px] xl:justify-between xl:h-[250px] xl:space-y-0 xl:flex-row pt-[79px] pb-[81px] xl:py-[30px] xl:px-[55px] flex flex-col space-y-[67px]">
               <div className="flex flex-col items-center justify-center xl:w-[232px]">
                 <h4
                   className={clsx(

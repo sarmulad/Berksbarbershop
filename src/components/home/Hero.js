@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       <div className="relative">
         <TopNav type="dark" />
-        <div className="flex flex-col mt-[32vh] xl:mt-[14vh] items-center justify-center">
+        <div className="flex flex-col   mt-[20vh] xl:mt-[14vh] items-center justify-center">
           <h2
             className={clsx(
               texts.berk_h2_bold,
