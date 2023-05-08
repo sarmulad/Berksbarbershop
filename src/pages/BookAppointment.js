@@ -177,7 +177,7 @@ const BookAppointment = () => {
           <div className="pt-[79px] pb-[73.96px] flex items-center justify-center">
             <button
               type="submit"
-              className="bg-berk-red py-[10px] px-[34px] rounded-[16.68px] text-white text-[13.34px] leading-[16.68px]"
+              className="bg-berk-red py-[12px] w-[180px] px-[34px] rounded-[16.68px] text-white text-[16px] leading-[22px]"
             >
               Submit
             </button>
