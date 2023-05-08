@@ -92,7 +92,7 @@ const BeginJourney = ({ program }) => {
           />
 
           <div className="mt-[23px] mb-[46px] xl:mb-4 mx-12">
-            <p className="text-berk-blue text-[13px] leading-6 text-center max-w-[654px] xl:mx-auto">
+            <p className="text-berk-blue text-[10px] leading-6 text-center max-w-[654px] xl:mx-auto">
               *By submitting my number above, I agree to receive calls/SMS/text
               messages (data rates may apply) and/or prerecorded message from
               Berks barber school or its subsidiaries with marketing offers and
@@ -102,7 +102,7 @@ const BeginJourney = ({ program }) => {
           <div className="flex items-center justify-center">
             <button
               type="submit"
-              className="mb-[77.98px] bg-berk-red py-[10px] px-[34px] rounded-[16.68px] text-white text-[13.34px] leading-[16.68px]"
+              className="mb-[77.98px] bg-berk-red py-[12px] w-[180px] px-[34px] rounded-[16.68px] text-white text-[16px] leading-[16.68px]"
             >
               Get Started
             </button>

@@ -24,13 +24,20 @@ export const programs = [
   { name: "BARBER TEACHER PROGRAMS", link: routes.programs.barber_teacher },
 ];
 
-const dummy =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor";
+const hair = "Professional haircut service provided by our skilled barbers";
+const wash =
+  "Relaxing hair wash service that leaves your hair feeling refreshed and revitalized.";
+const beard =
+  "Expert beard trimming and outlining service that helps you maintain a clean and polished look.";
+const towelShave =
+  "Traditional hot towel shave service that provides a close, smooth shave and a soothing experience.";
+const clipperShave =
+  "Quick and efficient clipper shave service for those who prefer a no-fuss grooming option.";
 
 export const serviceMenuList = [
-  { title: "Haircut $10", description: dummy },
-  { title: "Hair Wash $5", description: dummy },
-  { title: "Beard Trim & Outline $5", description: dummy },
-  { title: "Hot Towel Shave $6", description: dummy },
-  { title: "Clipper Shave $4", description: dummy },
+  { title: "Haircut $10", description: hair },
+  { title: "Hair Wash $5", description: wash },
+  { title: "Beard Trim & Outline $5", description: beard },
+  { title: "Hot Towel Shave $6", description: towelShave },
+  { title: "Clipper Shave $4", description: clipperShave },
 ];
