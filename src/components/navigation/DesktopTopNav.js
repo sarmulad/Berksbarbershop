@@ -10,9 +10,11 @@ import { setProgramsVisible } from "utils/functions";
 const DesktopTopNav = () => {
   return (
     <div className="h-[63.7px] bg-berk-red pl-[126px] flex items-center justify-between">
-      <h4 className={clsx(texts.berk_h4_regular, "text-white")}>
-        Call us Now: {contact.phone}
-      </h4>
+      <a href={`tel:${contact.phone}`}>
+        <h4 className={clsx(texts.berk_h4_regular, "text-white")}>
+          Call us Now: {contact.phone}
+        </h4>
+      </a>
       <div className="bg-white w-[522px] pl-[11px] flex">
         <div className="relative">
           <Programs
