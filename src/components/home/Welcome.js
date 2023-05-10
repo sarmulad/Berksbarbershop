@@ -6,7 +6,7 @@ import texts from "assets/styles/texts";
 const Welcome = () => {
   return (
     <div className="bg-berk-white">
-      <div className="pt-[112px]  px-5 pb-[67px] xl:pt-[116px] xl:px-[161px] xl:pb-[136px] max-w-largest mx-auto">
+      <div className="pt-[50px]  px-5 pb-[67px] xl:pt-[116px] xl:px-[161px] xl:pb-[136px] max-w-largest mx-auto">
         <div className="flex flex-col xl:flex-row-reverse">
           <div className="px-7 flex-shrink-0 mx-auto xl:mx-0 xl:ml-[126px] xl:mt-[50px]">
             <img
