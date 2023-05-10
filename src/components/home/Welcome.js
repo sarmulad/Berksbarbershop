@@ -8,9 +8,9 @@ const Welcome = () => {
     <div className="bg-berk-white">
       <div className="pt-[50px]  px-5 pb-[67px] xl:pt-[116px] xl:px-[161px] xl:pb-[136px] max-w-largest mx-auto">
         <div className="flex flex-col xl:flex-row-reverse">
-          <div className="px-7 flex-shrink-0 mx-auto xl:mx-0 xl:ml-[126px] xl:mt-[50px]">
+          <div className=" flex-shrink-0 mx-auto xl:mx-0 xl:ml-[126px] xl:mt-[50px]">
             <img
-              className="object-contain pointer-events-none select-none w-[294px] h-[294px] xl:w-[450px] xl:h-[450px]"
+              className="object-contain pointer-events-none select-none w-[100%] h-[294px] xl:w-[450px] xl:h-[450px]"
               src={berkBuilding}
               alt="inside Berks School"
             />

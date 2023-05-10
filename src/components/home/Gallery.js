@@ -60,15 +60,15 @@ const Gallery = () => {
         />
         <GalleryImage
           src={gallery4}
-          className={"top-[256px] left-[230px] h-[97px] w-[149px]"}
+          className={"top-[256px] left-[230px] h-[97px] w-[110px]"}
         />
         <GalleryImage
           src={gallery7}
-          className={"top-[401px] left-[240px] h-[95.23px] w-[127px]"}
+          className={"top-[401px] left-[240px] h-[95.23px] w-[110px]"}
         />
         <GalleryImage
           src={gallery5}
-          className={"top-[550px]  left-[240px] h-[92px] w-[126px]"}
+          className={"top-[550px]  left-[240px] h-[92px] w-[110px]"}
         />
       </div>
       <div className="hidden xl:flex items-center justify-center ">
