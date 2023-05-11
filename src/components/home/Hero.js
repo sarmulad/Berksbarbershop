@@ -48,7 +48,7 @@ const Hero = () => {
           </p>
           <div className="h-[7vh] max-h-[80px]" />
           <Link
-            to={routes.book_appointment}
+            to={routes.contact_us}
             className={clsx(
               texts.berk_h5_regular,
               "bg-berk-brown animate__animated animate__fadeIn py-[14px] px-4 text-berk-white rounded-[20px] xl:px-[41px] xl:py-[22px]"
