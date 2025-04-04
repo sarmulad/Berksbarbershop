@@ -135,7 +135,7 @@ const Courses = () => {
                     "text-white text-center"
                   )}
                 >
-                  1250 hrs.
+                  500 hrs.
                 </h4>
                 <Link
                   to={routes.programs.barber_teacher}

@@ -9,7 +9,7 @@ const tuitionList = [
   {
     name: "Barber",
     list: [
-      { name: "Tuition Cost", cost: 6000 },
+      { name: "Tuition Cost", cost: 7500 },
       { name: "Clock Hours", value: "1250 hrs" },
       { name: "Full - Time", value: "42 weeks" },
       { name: "Enrollment Fee", cost: 100 },
@@ -29,8 +29,8 @@ const tuitionList = [
   {
     name: "Barber Teacher",
     list: [
-      { name: "Tuition Cost", cost: 13400 },
-      { name: "Clock Hours", value: "1250 hrs" },
+      { name: "Tuition Cost", cost: 5000 },
+      { name: "Clock Hours", value: "500 hrs" },
       { name: "Full - Time", value: "42 weeks" },
       { name: "Enrollment Fee", cost: 100 },
       { name: "Books/Supplies", cost: 1500 },

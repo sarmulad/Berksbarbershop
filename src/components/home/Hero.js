@@ -44,7 +44,7 @@ const Hero = () => {
           </h2>
           <p className="mt-[10px] w-[80%] text-berk-black md:max-w-[500px] text-center md:text-[18px] leading-[30px]">
             Get Hands-On Training and Professional Experience While Providing
-            Barbing Services to the Community
+            Barbering Services to the Community
           </p>
           <div className="h-[7vh] max-h-[80px]" />
           <Link
